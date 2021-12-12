@@ -28,5 +28,5 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	print(cod.Site[0].Domains[0])
+	print(len(cod.Site[0].Domains))
 }
