@@ -1,0 +1,27 @@
+{
+  "site": [
+    {
+      "name": "codeforce",
+      "domains": [
+        "https://codeforces.com/",
+        "https://m1.codeforces.com"
+      ],
+      "dom": {
+        "title": ".header > div:nth-child(1)",
+        "input": ".input > pre",
+        "output": ".output > pre"
+      }
+    },
+    {
+      "name": "hackerrank",
+      "domains": [
+        "www.hackerrank.com"
+      ],
+      "dom": {
+        "title": "html head title",
+        "input": ".input-text",
+        "output": "div.visual-hackdown-content:nth-child(1) > pre:nth-child(1) > code:nth-child(1)"
+      }
+    }
+  ]
+}
