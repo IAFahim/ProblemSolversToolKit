@@ -1,6 +1,6 @@
 module ProblemSolversToolKit
 
-go 1.17
+go 1.19
 
 require (
 	github.com/gocolly/colly/v2 v2.1.0
